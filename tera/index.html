@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href='./Images/swm_logo.png' type="image/png">
+    <link rel="stylesheet" href='index.css'>
+    <link rel="stylesheet" href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css' />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <title>Solid Waste Management</title>
+    <div class="preloader">
+        <img src="pre-loader.svg" alt="spinner">
+    </div>
+</head>
+
+<body>
+    <!--Scroll to top button-->
+    <button onclick="topFunction()" id="myBtn" class="fas fa-arrow-up"></button>
+    <!-- Home Page -->
+    <header>
+        <video autoplay muted loop plays-inline id="homevideo">
+            <source src="./video/homevideo1.mp4" type="video/mp4">
+        </video>
+        <div id="logo"><a href="index.html"><img src="./Images/swm_logo.png"></a></div>
+        <div id="nav">
+            <div class="header-list" id="headerl">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a class="scroll" href="#about-us">About Us</a></li>
+                    <li><a class="scroll" href="#vol-sect">Get Involved</a></li>
+                    <li><a href="check.html" target="_blank">Check</a></li> <!-- Changed "Donate" to "Check" -->
+                    <li><a href="help.html" target="_blank">Get Help</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </div>
+        <div class="text-box">
+            <h1> Start </h1>
+            <h1>Saving Our Planet </h1>
+            <p>Join us in reducing waste and promoting sustainable practices.</p>
+            <a href='Register.html' class="hero-btn" target="_blank">Get Involved</a>
+        </div>
+    </header>
+
+    <!--ABOUT US -->
+    <main>
+        <section id="about-us">
+            <div class="about">
+                <h1 class="heading">What is Solid Waste Management?</h1><br>
+                <p class="head-des">We tackle the issue of waste management by connecting communities with resources and solutions.</p>
+                <div class="row">
+                    <div class="about-col">
+                        <div class="image">
+                            <img src="./Images/recycling.png">
+                        </div>
+                        <h3>What We Do?</h3>
+                        <p>We connect individuals and organizations to facilitate efficient waste management and recycling efforts.</p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                            <img src="./Images/innovation.png">
+                        </div>
+                        <h3>Innovative Solutions</h3>
+                        <p>Our platform provides innovative approaches to promote recycling and reduce waste.</p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                            <img src="./Images/network.png">
+                        </div>
+                        <h3>Community Network</h3>
+                        <p>We are part of a network of organizations dedicated to improving waste management practices.</p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                            <img src="./Images/noti.png">
+                        </div>
+                        <h3>Get Notified</h3>
+                        <p>Stay informed about waste management initiatives and community events through our notifications.</p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                            <img src="./Images/free.png">
+                        </div>
+                        <h3>Completely Free</h3>
+                        <p>Our resources and services are provided at no cost to encourage participation in waste reduction.</p>
+                    </div>
+                    <div class="about-col">
+                        <div class="image">
+                            <img src="./Images/save.png">
+                        </div>
+                        <h3>Protect Our Environment</h3>
+                        <p>Join us in our mission to create a cleaner, healthier planet for future generations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Volunteer Section -->
+    <div class="volunteer" section id="vol-sect">
+        <div class="title-head">
+            <h1 class="title">Our Heroes in Waste Management</h1>
+        </div>
+        <p class="content">Volunteers are essential to our efforts! They form the backbone of our initiatives and work tirelessly to promote sustainability.</p>
+        <ul class="volunt">
+            <!-- Volunteer list goes here -->
+        </ul>
+    </div>
+
+    <!-- Testimonials -->
+    <section class="customer-review">
+        <div class="row-customer">
+            <h2>Testimonials<br>See what our users have to say</h2>
+        </div>
+        <div class="row-customer">
+            <div class="col-customer span-1-of-3-customer customer-box">
+                <div class="customer-text-box">
+                    This program is fantastic! I learned so much about recycling and waste management.
+                </div>
+                <div class="customer">
+                    <img src="Images/review-1.PNG" alt="Customer photo">
+                    <p>John Doe</p>
+                </div>
+            </div>
+            <div class="col-customer span-1-of-3-customer customer-box">
+                <div class="customer-text-box">
+                    I was able to reduce my waste significantly thanks to the resources provided!
+                </div>
+                <div class="customer">
+                    <img src="Images/review-2.PNG" alt="Customer photo">
+                    <p>Jane Smith</p>
+                </div>
+            </div>
+            <div class="col-customer span-1-of-3-customer customer-box">
+                <div class="customer-text-box">
+                    The community events have made a real difference in our neighborhood.
+                </div>
+                <div class="customer">
+                    <img src="Images/review-3.PNG" alt="Customer photo">
+                    <p>Alex Johnson</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <div class="siteFooterBar">
+            <div class="content1">
+                <div class="foot">2021 © All rights reserved.</div>
+            </div>
+        </div>
+        <div class="footer-content">
+            <h3>JOIN OUR CAUSE</h3>
+            <p>Reducing waste and promoting recycling can be intimidating, but together we can make a difference. Join us in our mission!</p>
+            <div class="socials">
+                <ul class="sci">
+                    <li><a href="https://www.facebook.com/ourcause" target="_blank"><i class="fab fa-facebook"></i></a></li>
+                    <li><a href="https://www.instagram.com/ourcause" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="http://www.ourcause.org" target="_blank"><i class="fas fa-globe"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <!--Javascript for pre-loader-->
+    <script>
+        const preloader = document.querySelector('.preloader');
+        const fadeEffect = setInterval(() => {
+            if (!preloader.style.opacity) {
+                preloader.style.opacity = 1;
+            }
+            if (preloader.style.opacity > 0) {
+                preloader.style.opacity -= 1.5;
+            } else {
+                clearInterval(fadeEffect);
+            }
+        }, 1500);
+        window.addEventListener('load', fadeEffect);
+    </script>
+
+    <!--js for scroll to top-->
+    <script src="up.js"></script>
+
+    <!--JAVASCRIPT FOR TOGGLE MENU -->
+    <script>
+        var headerl = document.getElementById("headerl");
+
+        function showMenu() {
+            headerl.style.right = "0";
+        }
+
+        function hideMenu() {
+            headerl.style.right = "-210px";
+        }
+    </script>
+
+    <!--js for scroll effects-->
+    <script src="scroll.js"></script>
+
+</body>
+
+</html>
